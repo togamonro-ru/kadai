@@ -7,8 +7,6 @@ const D_HEIGHT = 600;
 
 // ページ読み込み完了時に実行
 window.onload = function() {
-
-    this.time; //  the clock (Phaser.Time)
     // ゲームの設定値
     config = {
         type: Phaser.AUTO,
@@ -27,4 +25,4 @@ window.onload = function() {
     };
     // ゲーム開始
     game = new Phaser.Game(config);
-}; 
+};
